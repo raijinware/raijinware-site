@@ -25,6 +25,7 @@ const codeStyles = {
 
 const NotFoundPage = () => {
   return (
+    /*
     <main style={pageStyles}>
       <h1 style={headingStyles}>Page not found</h1>
       <p style={paragraphStyles}>
@@ -41,6 +42,20 @@ const NotFoundPage = () => {
         <Link to="/">Go home</Link>.
       </p>
     </main>
+    */
+    <>
+    <html lang="en" />
+    <main>
+      
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </head>
+        <body>
+          <h1>404 Not Found</h1>
+        </body>
+    </main>
+    </>
   )
 }
 

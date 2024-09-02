@@ -1,3 +1,31 @@
+// Step 1: Import React
+import * as React from 'react'
+import Layout from '../components/layout'
+
+// Step 2: Define your component
+const IndexPage = () => {
+  return (
+    <>
+      <Layout pageTitle="Home Page">
+        <p>This is a site that I'm making for personal use.</p>
+      </Layout>
+    </>
+  )
+}
+
+// You'll learn about this in the next task, just copy it for now
+export const Head = () => <title>Raijinware</title>
+
+// Step 3: Export your component
+export default IndexPage
+
+
+
+// In compliance with ADA, I installed gatsby-plugin-html-attributes
+
+// This is the code from the tutorial, this is being saved as a reference point
+
+/*
 import * as React from "react"
 
 const pageStyles = {
@@ -126,6 +154,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <html lang="en" />
       <h1 style={headingStyles}>
         Congratulations
         <br />
@@ -171,6 +200,9 @@ const IndexPage = () => {
   )
 }
 
+
 export default IndexPage
 
 export const Head = () => <title>Home Page</title>
+
+*/
