@@ -52,3 +52,6 @@ Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 ## There are some things that need to be installed to run this site, here is a list:
 
 - gatsby-plugin-html-attributes
+- gatsby-plugin-image
+- gatsby-plugin-sharp
+- gatsby-source-filesystem

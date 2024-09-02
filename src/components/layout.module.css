@@ -4,17 +4,25 @@
     font-family: sans-serif;
   }
   
-  .heading {
-    color: rebeccapurple;
-  }
-  .nav-links {
+.heading {
+    color: #173042;
+    /*color: #236477;*/
+    /*color: #cfdfda;*/
+    /*color: #7cad3e;*/
+    /*color: #4a6c2f;*/
+}
+.nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
-  }
-  .nav-link-item {
+}
+.nav-link-item {
     padding-right: 2rem;
-  }
-  .nav-link-text {
+}
+.nav-link-text {
     color: black;
-  }
+}
+
+body{
+    background-color: #cfdfda;
+}

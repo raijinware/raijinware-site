@@ -11,6 +11,9 @@ module.exports = {
       options: {
         lang: 'en-US'
       }
-    }
+      
+    },
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
   ],
 }
