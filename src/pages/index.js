@@ -8,7 +8,6 @@ import Seo from '../components/seo'
 const IndexPage = () => {
   return (
     <>
-    
       <Layout pageTitle="Home">
         <p>This is a site that I'm making for personal use.</p>
         <StaticImage

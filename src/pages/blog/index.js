@@ -21,11 +21,12 @@ const BlogPage = ({ data }) => {
           
         ))
       }
-    </Layout>
-    <StaticImage
+      <StaticImage
         alt="A picture of multiple tabs of code opened on a monitor"
         src="../../images/Codingmultipletabs.png"
         />
+    </Layout>
+    
     </>
   )
 }
