@@ -55,3 +55,5 @@ Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 - gatsby-plugin-image
 - gatsby-plugin-sharp
 - gatsby-source-filesystem
+- gatsby-plugin-mdx 
+- @mdx-js/react
