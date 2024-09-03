@@ -3,7 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: "Raijinware",
+    //siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
     {

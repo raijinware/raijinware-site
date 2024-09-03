@@ -2,11 +2,15 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import Seo from '../components/seo'
 
 // Step 2: Define your component
 const IndexPage = () => {
   return (
     <>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
       <Layout pageTitle="Raijinware">
         <p>This is a site that I'm making for personal use.</p>
         <StaticImage
@@ -19,7 +23,7 @@ const IndexPage = () => {
 }
 
 // You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Raijinware</title>
+export const Head = () => <Seo title="Raijinware" />
 
 // Step 3: Export your component
 export default IndexPage
