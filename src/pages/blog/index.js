@@ -1,10 +1,12 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../../components/layout'
 import Seo from '../../components/seo'
 
 const BlogPage = ({ data }) => {
   return (
+    <>
     <Layout pageTitle="My Blog Posts">
       {
         data.allMdx.nodes.map(node => (
@@ -16,9 +18,15 @@ const BlogPage = ({ data }) => {
             </h2>
             <p>Posted: {node.frontmatter.date}</p>
           </article>
+          
         ))
       }
     </Layout>
+    <StaticImage
+        alt="A picture of multiple tabs of code opened on a monitor"
+        src="../../images/Codingmultipletabs.png"
+        />
+    </>
   )
 }
 
