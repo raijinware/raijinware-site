@@ -9,7 +9,9 @@ const IndexPage = () => {
   return (
     <>
       <Layout pageTitle="Home">
-        <p>This is a site that I'm making for personal use.</p>
+        <hr></hr>
+        <p>Hello, and welcome to my site. This website is still under construction, and there will be much more features coming soon. For now, be sure to check out the <strong><i>BLOG</i></strong> and the <strong><i>ABOUT</i></strong> pages to learn more about the website creator!</p>
+        <hr></hr>
         <StaticImage
         alt="A closeup picture of a motherboard"
         src="../images/Mobo.jpg"
