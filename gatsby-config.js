@@ -24,5 +24,11 @@ module.exports = {
       }
     },
     "gatsby-plugin-mdx",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options:{
+        icon: "src/images/energy-icon.png",
+      },
+    },
   ],
 }

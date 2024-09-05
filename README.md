@@ -57,3 +57,4 @@ Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 - gatsby-source-filesystem
 - gatsby-plugin-mdx 
 - @mdx-js/react
+- gatsby-plugin-manifest
