@@ -25,11 +25,12 @@ const Layout = ({ pageTitle, children }) => {
     <div className={container}>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />      <header className={siteTitle}>{data.site.siteMetadata.title}</header>
+      <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />      
+      <header className={siteTitle}>{data.site.siteMetadata.title}</header>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet" />
-      <link rel="icon" type="images/x-icon" href="images/WebIcon.png" alt="A computer with some sort of coding language on it."/>
+
 
       <nav>
         <ul className={navLinks}>
